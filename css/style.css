@@ -1,0 +1,23 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: inherit;
+}
+
+.full-height {
+  gap: 20px;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.message {
+  display: none;
+  color: #e63636;
+  margin-top: 5px;
+  font-size: .9rem;
+}
